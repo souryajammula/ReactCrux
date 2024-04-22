@@ -1,0 +1,14 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+.flex {
+  display:'flex';
+  justify-content: 'center';
+  align-items: 'center';
+}
+
+th, td{
+  border: solid grey 1 px ;
+}

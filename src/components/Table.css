@@ -1,0 +1,15 @@
+
+table{
+   border-collapse: collapse;
+   width:100%; 
+}
+
+th, td{
+    border: solid grey 1px;
+    padding: 5px;
+}
+
+tr > th{
+    background-color: black;
+    color: white;
+}
