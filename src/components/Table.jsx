@@ -4,7 +4,6 @@ import {useState} from 'react';
 const Table= ({breeds})=> {
     const [dogBreeds, setDogBreeds]=useState(breeds);
     const [searchQuery, setSearchQuery]=useState('');
-    console.log(dogBreeds);
     const [sortConfig,setSortConfig]=useState({
         column:undefined,
         direction:"asc"
